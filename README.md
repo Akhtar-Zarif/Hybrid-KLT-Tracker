@@ -1,6 +1,6 @@
 # Hybrid KLT Tracker (`HybridKLTAutomation`)
 
-A mission-tunable MATLAB **Video Labeler Automation Algorithm** combining **Gaussian Mixture Model (GMM) Foreground Blob Detection**, a **Linear Kalman Filter**, and **Kanade-Lucas-Tomasi (KLT) Optical Flow Feature Tracking** for semi-automated bounding-box annotation across UAV, aerial surveillance, and ground tracking datasets.
+A mission-tunable MATLAB **Video Labeler Automation Algorithm** combining **Gaussian Mixture Model (GMM) Foreground Blob Detection**, a **Linear Kalman Filter**, and **Kanade-Lucas-Tomasi (KLT) Optical Flow Feature Tracking** for semi-automated bounding-box annotation across UAV, aerial surveillance, and ground tracking datasets based on Real-World Data.
 
 **Author:** Zarif Bin Akhtar
 
@@ -19,8 +19,8 @@ Watch or download the full walkthrough of the Hybrid KLT Tracker in MATLAB Video
 
 1. **Kalman Prediction (`Part 1`):** Uses a constant-velocity 4-state model $[x, y, v_x, v_y]^T$ to predict target position across frames and bridge temporary occlusions.
 2. **Foreground Blob Detection (`Part 2`):** Applies `vision.ForegroundDetector` followed by configurable morphological opening (`filterSize`), closing (`second_filterSize`), and hole filling, associating the closest valid blob within `MaxAssociationDist`.
-3. **KLT Feature Tracking (`Part 2`):** Maintains local corner features (`detectMinEigenFeatures` + `vision.PointTracker`) inside the target ROI and automatically re-seeds features when tracked points drop below threshold.
-4. **Kalman State Update (`Part 3`):** Fuses valid blob detections with predicted kinematics using tunable process noise ($Q_k$) and measurement noise ($R_k$).
+3. **KLT Feature Tracking (`Part 3`):** Maintains local corner features (`detectMinEigenFeatures` + `vision.PointTracker`) inside the target ROI and automatically re-seeds features when tracked points drop below threshold.
+4. **Kalman State Update (`Part 4`):** Fuses valid blob detections with predicted kinematics using tunable process noise ($Q_k$) and measurement noise ($R_k$).
 
 ---
 
@@ -86,7 +86,7 @@ Hybrid-KLT-Tracker/
 ├── HybridKLTAutomation.m       # Main MATLAB Video Labeler AutomationAlgorithm class
 ├── presets/
 │   └── loadMissionConfig.m     # Helper utility to inspect/export preset configurations
-├── demo/
+├── video demo/
 │   ├── README.md               # Instructions for adding and linking video_demo.mp4
 │   └── video_demo.mp4          # Demonstration video of Hybrid KLT Tracker in action
 ├── .gitignore                  # Ignores MATLAB autosaves, temp files, and local datasets
