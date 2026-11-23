@@ -77,10 +77,10 @@ Hybrid-KLT-Tracker/
 ├── HybridKLTAutomation.m       # Main MATLAB Video Labeler AutomationAlgorithm class
 ├── presets/
 │   └── loadMissionConfig.m     # Helper utility to inspect/export preset configurations
+├── video demo
 ├── .gitignore                  # Ignores MATLAB autosaves, temp files, and local datasets
 ├── LICENSE                     # MIT License
 └── README.md                   # Documentation, setup instructions, and tuning guide
-├── video demo
 ```
 
 ---
