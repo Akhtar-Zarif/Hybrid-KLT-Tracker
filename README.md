@@ -8,7 +8,10 @@ A mission-tunable MATLAB **Video Labeler Automation Algorithm** combining **Gaus
 
 ## Video Demonstration
 
-See [`demo/video_demo.mp4`](demo/video_demo.mp4) for a walkthrough of the Hybrid KLT Tracker running inside MATLAB Video Labeler.
+Watch or download the full walkthrough of the Hybrid KLT Tracker in MATLAB Video Labeler from the [v1.0.0 Release](https://github.com/Akhtar-Zarif/Hybrid-KLT-Tracker/releases/tag/v1.0.0):
+
+- **Demo Video Asset:** [`video.demo.mp4` (221 MB)](https://github.com/Akhtar-Zarif/Hybrid-KLT-Tracker/releases/download/v1.0.0/video.demo.mp4)
+- **SHA-256 Checksum:** `19290d7f34af17ba98b36a819549960aff155c2d296ebccd307c61d13939fa60`
 
 ---
 
