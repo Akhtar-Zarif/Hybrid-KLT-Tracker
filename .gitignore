@@ -1,0 +1,21 @@
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.mat
+*.fig
+*.mex*
+*.slxc
+*.autosave
+
+# Local video datasets & exported ground truth
+*.mp4
+*.avi
+*.mov
+*.mkv
+data/
+videos/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
