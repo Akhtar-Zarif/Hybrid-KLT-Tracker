@@ -6,6 +6,12 @@ A mission-tunable MATLAB **Video Labeler Automation Algorithm** combining **Gaus
 
 ---
 
+## Video Demonstration
+
+See [`demo/video_demo.mp4`](demo/video_demo.mp4) for a walkthrough of the Hybrid KLT Tracker running inside MATLAB Video Labeler.
+
+---
+
 ## Architecture Overview
 
 1. **Kalman Prediction (`Part 1`):** Uses a constant-velocity 4-state model $[x, y, v_x, v_y]^T$ to predict target position across frames and bridge temporary occlusions.
@@ -77,18 +83,13 @@ Hybrid-KLT-Tracker/
 ├── HybridKLTAutomation.m       # Main MATLAB Video Labeler AutomationAlgorithm class
 ├── presets/
 │   └── loadMissionConfig.m     # Helper utility to inspect/export preset configurations
-├── video demo
+├── demo/
+│   ├── README.md               # Instructions for adding and linking video_demo.mp4
+│   └── video_demo.mp4          # Demonstration video of Hybrid KLT Tracker in action
 ├── .gitignore                  # Ignores MATLAB autosaves, temp files, and local datasets
 ├── LICENSE                     # MIT License
 └── README.md                   # Documentation, setup instructions, and tuning guide
 ```
-
----
-
-## Video Demonstration
-
-Watch or download the full walkthrough of the Hybrid KLT Tracker in MATLAB Video Labeler:
-- **[Download / Watch Demo Video (`video.demo.mp4`, 221 MB)](https://github.com/Akhtar-Zarif/Hybrid-KLT-Tracker/releases/download/v1.0.0/video.demo.mp4)**
 
 ---
 

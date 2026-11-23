@@ -486,8 +486,7 @@ classdef HybridKLTAutomation < vision.labeler.AutomationAlgorithm & vision.label
             
             % Debug output every 50 frames
             if mod(algObj.FrameCount, 50) == 0
-                fprintf('[KLT] Frame %d: (%.1f, %.1f) | %s | Loss: %d
-', ...
+                fprintf('[KLT] Frame %d: (%.1f, %.1f) | %s | Loss: %d\n', ...
                     algObj.FrameCount, centerX, centerY, method, algObj.LossCount);
             end
         end

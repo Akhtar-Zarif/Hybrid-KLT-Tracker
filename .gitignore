@@ -7,8 +7,9 @@
 *.slxc
 *.autosave
 
-# Local video datasets & exported ground truth
+# Local video datasets & exported ground truth (except demo video)
 *.mp4
+!demo/*.mp4
 *.avi
 *.mov
 *.mkv
