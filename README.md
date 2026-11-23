@@ -27,7 +27,7 @@ A mission-tunable MATLAB **Video Labeler Automation Algorithm** combining **Gaus
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/Hybrid-KLT-Tracker.git
+   git clone https://github.com/Akhtar-Zarif/Hybrid-KLT-Tracker.git
    ```
 2. Open MATLAB and add the repository folder to your path:
    ```matlab
