@@ -84,6 +84,13 @@ Hybrid-KLT-Tracker/
 
 ---
 
+## Video Demonstration
+
+Watch or download the full walkthrough of the Hybrid KLT Tracker in MATLAB Video Labeler:
+- **[Download / Watch Demo Video (`video.demo.mp4`, 221 MB)](https://github.com/Akhtar-Zarif/Hybrid-KLT-Tracker/releases/download/v1.0.0/video.demo.mp4)**
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE).
